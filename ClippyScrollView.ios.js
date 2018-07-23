@@ -44,6 +44,7 @@ class ClippyScrollViewBase extends Component {
   };
 
   attachScrollEvent = () => {
+    // We do this so the user can set `onScroll` events
     if (this.scrollAnimatedValueAttachment) {
       this.scrollAnimatedValueAttachment.detach();
     }
