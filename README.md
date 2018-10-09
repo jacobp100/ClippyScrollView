@@ -23,6 +23,6 @@ export default () => (
 
 Pass in regular scroll view props to `<ClippyScrollView>`.
 
-If you want to customise where it gets clipped, you can pass in `topOffset` to the `<ClippyScrollView>` component. This can be a `number`, or an `Animated.Value`. We also expose an `Animated.Value` of the status bar's current height as `ClippyScrollView.StatusBarHeight`.
+If you want to customise where it gets clipped, you can pass in `topOffset` to the `<ClippyScrollView>` component. This can be a `number`, or an `Animated.Value`. We also expose an `Animated.Value` of the status bar's current height as the named export `StatusBarHeight`.
 
 This works on Android too, it just works like a regular scroll view.
