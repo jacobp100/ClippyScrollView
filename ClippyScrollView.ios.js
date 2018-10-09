@@ -131,8 +131,6 @@ const ClippyScrollView = forwardRef((props, innerRef) => (
   <ClippyScrollViewBase {...props} innerRef={innerRef} />
 ));
 
-ClippyScrollView.StatusBarHeight = StatusBarHeight;
-
 ClippyScrollView.Mask = props => (
   <ScrollViewContext.Consumer>
     {scrollViewContext => (
